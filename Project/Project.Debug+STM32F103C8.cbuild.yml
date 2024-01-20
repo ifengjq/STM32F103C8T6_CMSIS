@@ -248,6 +248,20 @@ build:
       files:
         - file: ./main.c
           category: sourceC
+    - group: Drivers
+      files:
+        - file: ./Drivers/Delay/delay.c
+          category: sourceC
+        - file: ./Drivers/Delay/delay.h
+          category: header
+        - file: ./Drivers/LED/led.c
+          category: sourceC
+        - file: ./Drivers/LED/led.h
+          category: header
+        - file: ./Drivers/Key/key.c
+          category: sourceC
+        - file: ./Drivers/Key/key.h
+          category: header
   constructed-files:
     - file: RTE/_Debug_STM32F103C8/RTE_Components.h
       category: header

@@ -5,6 +5,14 @@ project:
     - group: Source Files
       files:
         - file: ./main.c
+    - group: Drivers
+      files:
+        - file: ./Drivers/Delay/delay.c
+        - file: ./Drivers/Delay/delay.h
+        - file: ./Drivers/LED/led.c
+        - file: ./Drivers/LED/led.h
+        - file: ./Drivers/Key/key.c
+        - file: ./Drivers/Key/key.h
 
   # List components to use for your application.
   # A software component is a re-usable unit that may be configurable.
