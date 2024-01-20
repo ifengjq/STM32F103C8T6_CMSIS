@@ -13,6 +13,9 @@ project:
         - file: ./Drivers/LED/led.h
         - file: ./Drivers/Key/key.c
         - file: ./Drivers/Key/key.h
+        - file: ./Drivers/OLED/oled.c
+        - file: ./Drivers/OLED/oled.h
+        - file: ./Drivers/OLED/oled_font.h
 
   # List components to use for your application.
   # A software component is a re-usable unit that may be configurable.

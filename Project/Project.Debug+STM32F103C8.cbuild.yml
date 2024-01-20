@@ -262,6 +262,12 @@ build:
           category: sourceC
         - file: ./Drivers/Key/key.h
           category: header
+        - file: ./Drivers/OLED/oled.c
+          category: sourceC
+        - file: ./Drivers/OLED/oled.h
+          category: header
+        - file: ./Drivers/OLED/oled_font.h
+          category: header
   constructed-files:
     - file: RTE/_Debug_STM32F103C8/RTE_Components.h
       category: header
